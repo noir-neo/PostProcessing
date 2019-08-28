@@ -45,7 +45,8 @@ namespace UnityEngine.Rendering.PostProcessing
 #if UNITY_2019_1_OR_NEWER
                     if (stereoRenderingMode == StereoRenderingMode.SinglePass)
                     {
-                        numberOfEyes = 2;
+                        //numberOfEyes = 2;
+                        numberOfEyes = 1;
                         xrDesc.width /= 2;
                         xrDesc.vrUsage = VRTextureUsage.None;
                     }

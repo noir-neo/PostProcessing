@@ -47,7 +47,7 @@ namespace UnityEngine.Rendering.PostProcessing
                     {
                         //numberOfEyes = 2;
                         numberOfEyes = 1;
-                        xrDesc.width /= 2;
+                        //xrDesc.width /= 2;
                         xrDesc.vrUsage = VRTextureUsage.None;
                     }
 #else
